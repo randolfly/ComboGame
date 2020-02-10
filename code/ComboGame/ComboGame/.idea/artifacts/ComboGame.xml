@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="ComboGame">
+    <output-path>$PROJECT_DIR$/out/artifacts/ComboGame</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="combogame.MainApp" />
+        <option name="description" value="" />
+        <option name="height" value="800" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="comboGame" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+        <option name="width" value="1200" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="ComboGame.jar">
+        <element id="module-output" name="ComboGame" />
+        <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+      <element id="library" level="module" name="controlsfx-8.40.15.jar" module-name="ComboGame" />
+      <element id="library" level="module" name="dom4j-2.1.1.jar" module-name="ComboGame" />
+      <element id="library" level="module" name="jfoenix-8.0.8.jar" module-name="ComboGame" />
+      <element id="library" level="module" name="jl1.0.1.jar" module-name="ComboGame" />
+    </root>
+  </artifact>
+</component>
